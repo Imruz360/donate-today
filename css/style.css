@@ -17,7 +17,7 @@ body {
 }
 
 .header-bg {
-    background-image: url(/img/donation7.jpg);
+    background-image: url(../img/donation7.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 300px 0;
@@ -30,6 +30,10 @@ body {
 .header-content {
     color: #fff;
     text-align: center;
+}
+
+.header-text {
+    margin-bottom: 35px;
 }
 
 .header-text h1 {
@@ -46,7 +50,7 @@ body {
 .donate-btn a {
     display: block;
     width: 22%;
-    background: linear-gradient(45deg, #e700e9, #3c8aff);
+    background: #f15858;
     margin: 15px auto;
     color: #fff;
     text-decoration: none;
@@ -59,6 +63,7 @@ body {
 .section-title {
     text-align: center;
     padding: 0 303px;
+    margin-bottom: 60px;
 }
 
 .section-title h1 {
@@ -68,4 +73,79 @@ body {
 
 .section-title p {
     color: #979797;
+}
+
+.donate-amounts {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-bottom: 58px;
+}
+
+.amount-item {
+    background: #dfdfdf;
+    padding: 50px 30px;
+    color: #838080;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+#amount-id {
+    padding: 50px 30px;
+    color: #ff6f6f;
+    font-size: 22px;
+    border-radius: 10px;
+    background: #ffd0d0;
+    border: 3px solid #ff6f6f;
+}
+
+
+.pay-amount {
+    text-align: center;
+    color: #ddd;
+
+}
+
+.pay-amount p {
+    border-bottom: 1px solid #ddd;
+    width: 70%;
+    margin: 27px auto;
+    padding-bottom: 16px;
+}
+
+.plans {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-evenly !important;
+}
+
+.plan-item {
+    padding: 77px 37px;
+    margin-left: 35px;
+}
+
+div#item1 {
+    background: #e5f6f7;
+}
+
+div#item2 {
+    background: #ffe0e0;
+}
+
+div#item3 {
+    background: #fbeebf;
+}
+
+.plan-icon {
+    margin-bottom: 20px;
+}
+
+.plan-text h2 {
+    margin-bottom: 20px;
+}
+
+.plan-text p {
+    color: #8f8f8f;
 }
